@@ -38,6 +38,7 @@ We ship the security primitives we rely on in the open.
   ```yaml
   jobs:
     cargowall-example:
+      runs-on: ubuntu-latest
       permissions:
         id-token: write
         actions: read
